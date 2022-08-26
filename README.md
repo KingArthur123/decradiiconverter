@@ -7,6 +7,9 @@
 // is returned for 2. 'A' is returned for 10. 'B'
 // for 11
 char res[3000];
+
+
+
 char convert(int num)
 {
     if (num >= 0 && num <= 9)
@@ -16,6 +19,9 @@ char convert(int num)
 }
 
 // Utility function to reverse a string
+
+
+
 void reverse(char *str)
 {
     int len = strlen(str);
